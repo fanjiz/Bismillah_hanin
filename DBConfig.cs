@@ -12,7 +12,7 @@ namespace Bismillah_Hanin
         public static string dbServer = "localhost";
         public static string dbUser = "root";
         public static string dbName = "dbhanin";
-        public static string dbPass = "";
+        public static string dbPass = "IrfanaziZ013";
 
         public static string ConnStr => $"server={dbServer};user={dbUser};database={dbName};password={dbPass};";
 
