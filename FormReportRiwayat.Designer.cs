@@ -52,7 +52,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "FormReportRiwayat";
-            this.Text = "FormReportRiwayat";
+            this.Text = "Report Riwayat";
             this.ResumeLayout(false);
 
         }

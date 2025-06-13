@@ -115,10 +115,14 @@
             // 
             this.cbStatusPengerjaan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbStatusPengerjaan.FormattingEnabled = true;
+            this.cbStatusPengerjaan.Items.AddRange(new object[] {
+            "Diproses",
+            "Selesai",
+            "Diambil"});
             this.cbStatusPengerjaan.Location = new System.Drawing.Point(380, 722);
             this.cbStatusPengerjaan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbStatusPengerjaan.Name = "cbStatusPengerjaan";
-            this.cbStatusPengerjaan.Size = new System.Drawing.Size(262, 35);
+            this.cbStatusPengerjaan.Size = new System.Drawing.Size(262, 27);
             this.cbStatusPengerjaan.TabIndex = 5;
             // 
             // label1
@@ -128,7 +132,7 @@
             this.label1.Location = new System.Drawing.Point(374, 689);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 26);
+            this.label1.Size = new System.Drawing.Size(130, 19);
             this.label1.TabIndex = 6;
             this.label1.Text = "Status Pengerjaan";
             // 
@@ -151,7 +155,7 @@
             this.tbCari.Location = new System.Drawing.Point(786, 66);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(258, 35);
+            this.tbCari.Size = new System.Drawing.Size(258, 26);
             this.tbCari.TabIndex = 8;
             // 
             // btnCari
@@ -200,13 +204,13 @@
             this.lblPageInfo.Location = new System.Drawing.Point(966, 586);
             this.lblPageInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPageInfo.Name = "lblPageInfo";
-            this.lblPageInfo.Size = new System.Drawing.Size(191, 26);
+            this.lblPageInfo.Size = new System.Drawing.Size(123, 19);
             this.lblPageInfo.TabIndex = 12;
             this.lblPageInfo.Text = "Halaman 1 dari 2";
             // 
             // FormPesanan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1200, 793);
