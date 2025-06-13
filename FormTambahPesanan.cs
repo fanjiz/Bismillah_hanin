@@ -273,5 +273,10 @@ namespace Bismillah_Hanin
                 }
             }
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
