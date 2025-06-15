@@ -49,6 +49,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -58,6 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // tbNohp
@@ -143,11 +146,11 @@
             // 
             // btnBayar
             // 
-            this.btnBayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayar.Location = new System.Drawing.Point(442, 533);
+            this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBayar.Location = new System.Drawing.Point(442, 547);
             this.btnBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayar.Name = "btnBayar";
-            this.btnBayar.Size = new System.Drawing.Size(206, 61);
+            this.btnBayar.Size = new System.Drawing.Size(206, 47);
             this.btnBayar.TabIndex = 8;
             this.btnBayar.Text = "Bayar Sekarang";
             this.btnBayar.UseVisualStyleBackColor = true;
@@ -155,11 +158,11 @@
             // 
             // btnSimpanPesanan
             // 
-            this.btnSimpanPesanan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSimpanPesanan.Location = new System.Drawing.Point(35, 532);
+            this.btnSimpanPesanan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimpanPesanan.Location = new System.Drawing.Point(35, 547);
             this.btnSimpanPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSimpanPesanan.Name = "btnSimpanPesanan";
-            this.btnSimpanPesanan.Size = new System.Drawing.Size(205, 62);
+            this.btnSimpanPesanan.Size = new System.Drawing.Size(205, 47);
             this.btnSimpanPesanan.TabIndex = 9;
             this.btnSimpanPesanan.Text = "Simpan Pesanan";
             this.btnSimpanPesanan.UseVisualStyleBackColor = true;
@@ -179,7 +182,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(326, 97);
+            this.panel1.Location = new System.Drawing.Point(327, 249);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(676, 623);
             this.panel1.TabIndex = 10;
@@ -253,7 +256,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.user_3161848;
+            this.pictureBox2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.user_2;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(6, 12);
             this.pictureBox2.Name = "pictureBox2";
@@ -271,12 +274,34 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(508, 44);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(310, 51);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Hanin Laundry";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox5.Location = new System.Drawing.Point(620, 98);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(67, 53);
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
+            // 
             // FormTambahPesanan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(1324, 820);
+            this.ClientSize = new System.Drawing.Size(1324, 913);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -296,7 +321,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -322,5 +349,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

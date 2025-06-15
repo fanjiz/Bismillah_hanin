@@ -191,5 +191,26 @@
   <ItemGroup>
     <None Include="Resources\bill_3532026.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2849806-copy-interface-multimedia-print-printer_107972.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_112353.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_cash_coin_dollar_finance_money_payment_icon_123244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laundry_5172266.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\annual_calender_day_schedule_date_time_calendar_icon_256474.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

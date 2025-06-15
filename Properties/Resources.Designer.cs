@@ -63,9 +63,49 @@ namespace Bismillah_Hanin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2849806_copy_interface_multimedia_print_printer_107972 {
+            get {
+                object obj = ResourceManager.GetObject("2849806-copy-interface-multimedia-print-printer_107972", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_112353 {
+            get {
+                object obj = ResourceManager.GetObject("add_112353", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap annual_calender_day_schedule_date_time_calendar_icon_256474 {
+            get {
+                object obj = ResourceManager.GetObject("annual_calender_day_schedule_date_time_calendar_icon_256474", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bill_3532026 {
             get {
                 object obj = ResourceManager.GetObject("bill_3532026", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_cash_coin_dollar_finance_money_payment_icon_123244 {
+            get {
+                object obj = ResourceManager.GetObject("business_cash_coin_dollar_finance_money_payment_icon_123244", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +163,16 @@ namespace Bismillah_Hanin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap laundry_5172266 {
+            get {
+                object obj = ResourceManager.GetObject("laundry_5172266", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap live_chat_4615962 {
             get {
                 object obj = ResourceManager.GetObject("live-chat_4615962", resourceCulture);
@@ -146,6 +196,26 @@ namespace Bismillah_Hanin.Properties {
         internal static System.Drawing.Bitmap mobile_call_11338485 {
             get {
                 object obj = ResourceManager.GetObject("mobile-call_11338485", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search {
+            get {
+                object obj = ResourceManager.GetObject("search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_2 {
+            get {
+                object obj = ResourceManager.GetObject("user 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
