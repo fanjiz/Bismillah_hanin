@@ -222,6 +222,7 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.annual_calender_day_schedule_date_time_calendar_icon_256474;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Location = new System.Drawing.Point(44, 718);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(50, 58);
@@ -232,6 +233,7 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.business_cash_coin_dollar_finance_money_payment_icon_123244;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Location = new System.Drawing.Point(44, 449);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(50, 56);
@@ -242,6 +244,7 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.add_112353;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Location = new System.Drawing.Point(44, 347);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(50, 60);
