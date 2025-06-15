@@ -145,6 +145,9 @@
   <data name="business_cash_coin_dollar_finance_money_payment_icon_123244" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business_cash_coin_dollar_finance_money_payment_icon_123244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="beautiful-woman-holding-cloth-prepared-wash-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beautiful-woman-holding-cloth-prepared-wash-blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="email (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\email (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +157,8 @@
   <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="annual_calender_day_schedule_date_time_calendar_icon_256474" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\annual_calender_day_schedule_date_time_calendar_icon_256474.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,10 +166,13 @@
   <data name="live-chat_4615962" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\live-chat_4615962.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_3161848" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_3161848.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="annual_calender_day_schedule_date_time_calendar_icon_256474" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\annual_calender_day_schedule_date_time_calendar_icon_256474.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="f87147698f07020d4fea348f49da0166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f87147698f07020d4fea348f49da0166.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -93,6 +93,16 @@ namespace Bismillah_Hanin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap beautiful_woman_holding_cloth_prepared_wash_blue {
+            get {
+                object obj = ResourceManager.GetObject("beautiful-woman-holding-cloth-prepared-wash-blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bill_3532026 {
             get {
                 object obj = ResourceManager.GetObject("bill_3532026", resourceCulture);
@@ -146,6 +156,16 @@ namespace Bismillah_Hanin.Properties {
         internal static System.Drawing.Bitmap email__1_ {
             get {
                 object obj = ResourceManager.GetObject("email (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f87147698f07020d4fea348f49da0166 {
+            get {
+                object obj = ResourceManager.GetObject("f87147698f07020d4fea348f49da0166", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

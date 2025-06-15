@@ -52,10 +52,10 @@
             // btnBayar
             // 
             this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayar.Location = new System.Drawing.Point(481, 659);
+            this.btnBayar.Location = new System.Drawing.Point(507, 668);
             this.btnBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayar.Name = "btnBayar";
-            this.btnBayar.Size = new System.Drawing.Size(139, 44);
+            this.btnBayar.Size = new System.Drawing.Size(113, 35);
             this.btnBayar.TabIndex = 9;
             this.btnBayar.Text = "Bayar";
             this.btnBayar.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@
             this.dgvPesanan.AllowUserToAddRows = false;
             this.dgvPesanan.AllowUserToDeleteRows = false;
             this.dgvPesanan.AllowUserToOrderColumns = true;
-            this.dgvPesanan.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvPesanan.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgvPesanan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPesanan.Location = new System.Drawing.Point(72, 160);
             this.dgvPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -79,6 +79,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(76, 637);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -90,6 +91,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(235, 57);
             this.label6.Name = "label6";
@@ -99,6 +101,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox5.Location = new System.Drawing.Point(173, 57);
@@ -112,6 +115,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
+            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(720, 745);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
@@ -123,7 +128,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormBayarPesanan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormBayarPesanan";
+            this.Text = "Bayar Pesanan";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPesanan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);

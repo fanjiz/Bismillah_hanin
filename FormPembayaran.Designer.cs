@@ -36,13 +36,13 @@
             this.btnCari = new System.Windows.Forms.Button();
             this.tbCari = new System.Windows.Forms.TextBox();
             this.btnCetak = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPembayaran)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvPembayaran
@@ -50,21 +50,22 @@
             this.dgvPembayaran.AllowUserToAddRows = false;
             this.dgvPembayaran.AllowUserToDeleteRows = false;
             this.dgvPembayaran.AllowUserToOrderColumns = true;
-            this.dgvPembayaran.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvPembayaran.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgvPembayaran.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPembayaran.Location = new System.Drawing.Point(49, 114);
+            this.dgvPembayaran.Location = new System.Drawing.Point(25, 114);
             this.dgvPembayaran.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvPembayaran.Name = "dgvPembayaran";
             this.dgvPembayaran.ReadOnly = true;
             this.dgvPembayaran.RowHeadersWidth = 62;
-            this.dgvPembayaran.Size = new System.Drawing.Size(780, 452);
+            this.dgvPembayaran.Size = new System.Drawing.Size(804, 452);
             this.dgvPembayaran.TabIndex = 2;
             // 
             // lblPageInfo
             // 
             this.lblPageInfo.AutoSize = true;
+            this.lblPageInfo.BackColor = System.Drawing.Color.Transparent;
             this.lblPageInfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageInfo.Location = new System.Drawing.Point(626, 596);
+            this.lblPageInfo.Location = new System.Drawing.Point(638, 585);
             this.lblPageInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPageInfo.Name = "lblPageInfo";
             this.lblPageInfo.Size = new System.Drawing.Size(191, 26);
@@ -75,10 +76,10 @@
             // 
             this.btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnPrev.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrev.Location = new System.Drawing.Point(49, 585);
+            this.btnPrev.Location = new System.Drawing.Point(25, 580);
             this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(105, 49);
+            this.btnPrev.Size = new System.Drawing.Size(88, 37);
             this.btnPrev.TabIndex = 14;
             this.btnPrev.Text = "Prev";
             this.btnPrev.UseVisualStyleBackColor = true;
@@ -88,10 +89,10 @@
             // 
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(162, 585);
+            this.btnNext.Location = new System.Drawing.Point(130, 580);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(105, 49);
+            this.btnNext.Size = new System.Drawing.Size(88, 37);
             this.btnNext.TabIndex = 13;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -122,23 +123,45 @@
             // btnCetak
             // 
             this.btnCetak.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCetak.Location = new System.Drawing.Point(124, 676);
+            this.btnCetak.Location = new System.Drawing.Point(85, 650);
             this.btnCetak.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCetak.Name = "btnCetak";
-            this.btnCetak.Size = new System.Drawing.Size(182, 70);
+            this.btnCetak.Size = new System.Drawing.Size(175, 47);
             this.btnCetak.TabIndex = 18;
             this.btnCetak.Text = "Cetak Laporan";
             this.btnCetak.UseVisualStyleBackColor = true;
             this.btnCetak.Click += new System.EventHandler(this.btnCetak_Click_1);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(85, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(310, 51);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Hanin Laundry";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(25, 27);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(67, 53);
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._2849806_copy_interface_multimedia_print_printer_107972;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(51, 676);
+            this.panel1.Location = new System.Drawing.Point(25, 650);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(66, 70);
+            this.panel1.Size = new System.Drawing.Size(53, 47);
             this.panel1.TabIndex = 20;
             // 
             // pictureBox1
@@ -152,32 +175,14 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 51);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Hanin Laundry";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(25, 27);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 53);
-            this.pictureBox3.TabIndex = 25;
-            this.pictureBox3.TabStop = false;
-            // 
             // FormPembayaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(890, 792);
+            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(863, 792);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -193,10 +198,10 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPembayaran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormPembayaran";
+            this.Text = "Pembayaran";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPembayaran)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
