@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPesanan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
@@ -51,14 +52,15 @@
             // 
             // btnBayar
             // 
+            this.btnBayar.BackColor = System.Drawing.Color.Lime;
             this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayar.Location = new System.Drawing.Point(356, 640);
+            this.btnBayar.Location = new System.Drawing.Point(356, 641);
             this.btnBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayar.Name = "btnBayar";
-            this.btnBayar.Size = new System.Drawing.Size(113, 35);
+            this.btnBayar.Size = new System.Drawing.Size(113, 36);
             this.btnBayar.TabIndex = 9;
             this.btnBayar.Text = "Bayar";
-            this.btnBayar.UseVisualStyleBackColor = true;
+            this.btnBayar.UseVisualStyleBackColor = false;
             this.btnBayar.Click += new System.EventHandler(this.btnBayar_Click);
             // 
             // dgvPesanan
@@ -81,7 +83,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(87, 610);
+            this.label1.Location = new System.Drawing.Point(79, 610);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(164, 26);
@@ -110,6 +112,17 @@
             this.pictureBox5.TabIndex = 27;
             this.pictureBox5.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(79, 681);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(209, 19);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Masukkan jumlah pembayaran";
+            // 
             // FormBayarPesanan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -117,7 +130,8 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(720, 705);
+            this.ClientSize = new System.Drawing.Size(720, 719);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
@@ -144,5 +158,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label2;
     }
 }

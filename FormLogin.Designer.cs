@@ -42,6 +42,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -108,6 +110,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnLogin);
@@ -123,11 +127,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(149, 29);
+            this.label3.Location = new System.Drawing.Point(86, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 45);
+            this.label3.Size = new System.Drawing.Size(291, 45);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Welcome";
+            this.label3.Text = "Selamat Datang";
             // 
             // panel3
             // 
@@ -189,6 +193,26 @@
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(90, 200);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(176, 19);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Masukkan email terdaftar";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(90, 322);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(140, 19);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Masukkan password";
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -234,5 +258,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

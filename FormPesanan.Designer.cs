@@ -84,10 +84,10 @@
             // btnBayarPesanan
             // 
             this.btnBayarPesanan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayarPesanan.Location = new System.Drawing.Point(69, 264);
+            this.btnBayarPesanan.Location = new System.Drawing.Point(69, 186);
             this.btnBayarPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayarPesanan.Name = "btnBayarPesanan";
-            this.btnBayarPesanan.Size = new System.Drawing.Size(229, 38);
+            this.btnBayarPesanan.Size = new System.Drawing.Size(229, 43);
             this.btnBayarPesanan.TabIndex = 2;
             this.btnBayarPesanan.Text = "Bayar Pesanan";
             this.btnBayarPesanan.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@
             // btnRiwayatBayar
             // 
             this.btnRiwayatBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRiwayatBayar.Location = new System.Drawing.Point(69, 187);
+            this.btnRiwayatBayar.Location = new System.Drawing.Point(69, 264);
             this.btnRiwayatBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRiwayatBayar.Name = "btnRiwayatBayar";
             this.btnRiwayatBayar.Size = new System.Drawing.Size(229, 42);
@@ -147,15 +147,17 @@
             // 
             // btnSimpan
             // 
+            this.btnSimpan.BackColor = System.Drawing.Color.Lime;
             this.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnSimpan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimpan.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnSimpan.Location = new System.Drawing.Point(586, 644);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(106, 35);
             this.btnSimpan.TabIndex = 7;
             this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // tbCari
@@ -185,12 +187,12 @@
             // 
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(394, 554);
+            this.btnNext.Location = new System.Drawing.Point(456, 554);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(77, 37);
+            this.btnNext.Size = new System.Drawing.Size(142, 37);
             this.btnNext.TabIndex = 10;
-            this.btnNext.Text = "Next";
+            this.btnNext.Text = "Selanjutnya";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -201,9 +203,9 @@
             this.btnPrev.Location = new System.Drawing.Point(306, 554);
             this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(80, 37);
+            this.btnPrev.Size = new System.Drawing.Size(142, 37);
             this.btnPrev.TabIndex = 11;
-            this.btnPrev.Text = "Prev";
+            this.btnPrev.Text = "Sebelumnya";
             this.btnPrev.UseVisualStyleBackColor = true;
             this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
@@ -248,7 +250,7 @@
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel3.Location = new System.Drawing.Point(12, 264);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(50, 37);
+            this.panel3.Size = new System.Drawing.Size(50, 42);
             this.panel3.TabIndex = 16;
             // 
             // panel2
