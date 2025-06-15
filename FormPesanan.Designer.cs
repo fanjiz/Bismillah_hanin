@@ -141,9 +141,9 @@
             this.label1.Location = new System.Drawing.Point(301, 613);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 26);
+            this.label1.Size = new System.Drawing.Size(260, 26);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Status Pengerjaan";
+            this.label1.Text = "Ubah Status Pengerjaan";
             // 
             // btnSimpan
             // 
