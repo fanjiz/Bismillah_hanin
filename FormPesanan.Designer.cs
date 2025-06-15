@@ -108,7 +108,7 @@
             // btnHapus
             // 
             this.btnHapus.BackColor = System.Drawing.Color.Red;
-            this.btnHapus.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnHapus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHapus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHapus.Location = new System.Drawing.Point(977, 643);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -148,7 +148,7 @@
             // btnSimpan
             // 
             this.btnSimpan.BackColor = System.Drawing.Color.Lime;
-            this.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSimpan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSimpan.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnSimpan.Location = new System.Drawing.Point(586, 644);
