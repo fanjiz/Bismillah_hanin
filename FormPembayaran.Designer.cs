@@ -50,7 +50,7 @@
             this.dgvPembayaran.AllowUserToAddRows = false;
             this.dgvPembayaran.AllowUserToDeleteRows = false;
             this.dgvPembayaran.AllowUserToOrderColumns = true;
-            this.dgvPembayaran.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dgvPembayaran.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.dgvPembayaran.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPembayaran.Location = new System.Drawing.Point(25, 114);
             this.dgvPembayaran.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -180,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
+            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(863, 750);
             this.Controls.Add(this.pictureBox3);

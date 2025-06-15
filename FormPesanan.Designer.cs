@@ -70,7 +70,7 @@
             this.dgvPesanan.AllowUserToAddRows = false;
             this.dgvPesanan.AllowUserToDeleteRows = false;
             this.dgvPesanan.AllowUserToOrderColumns = true;
-            this.dgvPesanan.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dgvPesanan.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.dgvPesanan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPesanan.Location = new System.Drawing.Point(306, 115);
             this.dgvPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -287,7 +287,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
+            this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1119, 705);
             this.Controls.Add(this.pictureBox3);

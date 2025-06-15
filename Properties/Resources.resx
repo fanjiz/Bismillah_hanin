@@ -121,11 +121,11 @@
   <data name="user 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_3161848" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_3161848.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bill_3532026" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bill_3532026.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6874268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6874268.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beautiful-woman-holding-cloth-prepared-wash-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beautiful-woman-holding-cloth-prepared-wash-blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +148,8 @@
   <data name="business_cash_coin_dollar_finance_money_payment_icon_123244" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business_cash_coin_dollar_finance_money_payment_icon_123244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="email (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mobile-call_11338485" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mobile-call_11338485.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +163,9 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="email (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="laundry_5172266" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laundry_5172266.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,10 +175,13 @@
   <data name="f87147698f07020d4fea348f49da0166" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f87147698f07020d4fea348f49da0166.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user_3161848" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_3161848.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="68742681" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\68742681.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

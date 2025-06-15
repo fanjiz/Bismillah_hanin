@@ -73,6 +73,26 @@ namespace Bismillah_Hanin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6874268 {
+            get {
+                object obj = ResourceManager.GetObject("6874268", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _68742681 {
+            get {
+                object obj = ResourceManager.GetObject("68742681", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_112353 {
             get {
                 object obj = ResourceManager.GetObject("add_112353", resourceCulture);
