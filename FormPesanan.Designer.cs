@@ -219,32 +219,32 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.annual_calender_day_schedule_date_time_calendar_icon_256474;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(53, 728);
+            this.panel3.Location = new System.Drawing.Point(44, 718);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(41, 37);
+            this.panel3.Size = new System.Drawing.Size(50, 58);
             this.panel3.TabIndex = 16;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.business_cash_coin_dollar_finance_money_payment_icon_123244;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Location = new System.Drawing.Point(53, 459);
+            this.panel2.Location = new System.Drawing.Point(44, 449);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(41, 37);
+            this.panel2.Size = new System.Drawing.Size(50, 56);
             this.panel2.TabIndex = 15;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.add_112353;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(53, 358);
+            this.panel1.Location = new System.Drawing.Point(44, 347);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(41, 37);
+            this.panel1.Size = new System.Drawing.Size(50, 60);
             this.panel1.TabIndex = 14;
             // 
             // pictureBox1
