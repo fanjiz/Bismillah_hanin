@@ -84,7 +84,7 @@
             // btnBayarPesanan
             // 
             this.btnBayarPesanan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayarPesanan.Location = new System.Drawing.Point(69, 500);
+            this.btnBayarPesanan.Location = new System.Drawing.Point(69, 264);
             this.btnBayarPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayarPesanan.Name = "btnBayarPesanan";
             this.btnBayarPesanan.Size = new System.Drawing.Size(229, 38);
@@ -161,7 +161,7 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(710, 50);
+            this.tbCari.Location = new System.Drawing.Point(732, 70);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(258, 35);
@@ -172,7 +172,7 @@
             this.btnCari.BackColor = System.Drawing.Color.White;
             this.btnCari.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCari.Location = new System.Drawing.Point(1022, 50);
+            this.btnCari.Location = new System.Drawing.Point(1022, 70);
             this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCari.Name = "btnCari";
             this.btnCari.Size = new System.Drawing.Size(62, 35);
@@ -246,7 +246,7 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.annual_calender_day_schedule_date_time_calendar_icon_256474;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(12, 500);
+            this.panel3.Location = new System.Drawing.Point(12, 264);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(50, 37);
             this.panel3.TabIndex = 16;
@@ -274,9 +274,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search;
+            this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(997, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(997, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 35);
             this.pictureBox1.TabIndex = 13;
@@ -289,7 +289,7 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1119, 726);
+            this.ClientSize = new System.Drawing.Size(1119, 705);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel3);

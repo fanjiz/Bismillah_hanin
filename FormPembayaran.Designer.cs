@@ -102,7 +102,7 @@
             // 
             this.btnCari.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCari.Location = new System.Drawing.Point(766, 43);
+            this.btnCari.Location = new System.Drawing.Point(766, 69);
             this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCari.Name = "btnCari";
             this.btnCari.Size = new System.Drawing.Size(63, 35);
@@ -114,7 +114,7 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(458, 43);
+            this.tbCari.Location = new System.Drawing.Point(472, 69);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(258, 35);
@@ -167,9 +167,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search;
+            this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(737, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(737, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 35);
             this.pictureBox1.TabIndex = 19;
@@ -182,7 +182,7 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.f87147698f07020d4fea348f49da0166;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(863, 792);
+            this.ClientSize = new System.Drawing.Size(863, 750);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
