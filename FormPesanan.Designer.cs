@@ -56,12 +56,12 @@
             // btnTambahPesanan
             // 
             this.btnTambahPesanan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTambahPesanan.Location = new System.Drawing.Point(44, 115);
+            this.btnTambahPesanan.Location = new System.Drawing.Point(82, 115);
             this.btnTambahPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTambahPesanan.Name = "btnTambahPesanan";
-            this.btnTambahPesanan.Size = new System.Drawing.Size(287, 60);
+            this.btnTambahPesanan.Size = new System.Drawing.Size(229, 60);
             this.btnTambahPesanan.TabIndex = 0;
-            this.btnTambahPesanan.Text = "       Tambah Pesanan";
+            this.btnTambahPesanan.Text = "Tambah Pesanan";
             this.btnTambahPesanan.UseVisualStyleBackColor = true;
             this.btnTambahPesanan.Click += new System.EventHandler(this.btnTambahPesanan_Click);
             // 
@@ -84,24 +84,24 @@
             // btnBayarPesanan
             // 
             this.btnBayarPesanan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBayarPesanan.Location = new System.Drawing.Point(44, 217);
+            this.btnBayarPesanan.Location = new System.Drawing.Point(82, 217);
             this.btnBayarPesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayarPesanan.Name = "btnBayarPesanan";
-            this.btnBayarPesanan.Size = new System.Drawing.Size(287, 56);
+            this.btnBayarPesanan.Size = new System.Drawing.Size(229, 56);
             this.btnBayarPesanan.TabIndex = 2;
-            this.btnBayarPesanan.Text = "      Bayar Pesanan";
+            this.btnBayarPesanan.Text = "Bayar Pesanan";
             this.btnBayarPesanan.UseVisualStyleBackColor = true;
             this.btnBayarPesanan.Click += new System.EventHandler(this.btnBayarPesanan_Click);
             // 
             // btnRiwayatBayar
             // 
             this.btnRiwayatBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRiwayatBayar.Location = new System.Drawing.Point(44, 486);
+            this.btnRiwayatBayar.Location = new System.Drawing.Point(82, 486);
             this.btnRiwayatBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRiwayatBayar.Name = "btnRiwayatBayar";
-            this.btnRiwayatBayar.Size = new System.Drawing.Size(287, 58);
+            this.btnRiwayatBayar.Size = new System.Drawing.Size(249, 58);
             this.btnRiwayatBayar.TabIndex = 3;
-            this.btnRiwayatBayar.Text = "     Riwayat Pembayaran";
+            this.btnRiwayatBayar.Text = "Riwayat Pembayaran";
             this.btnRiwayatBayar.UseVisualStyleBackColor = true;
             this.btnRiwayatBayar.Click += new System.EventHandler(this.btnRiwayatBayar_Click);
             // 
@@ -171,12 +171,12 @@
             this.btnCari.BackColor = System.Drawing.Color.White;
             this.btnCari.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCari.Location = new System.Drawing.Point(1064, 47);
+            this.btnCari.Location = new System.Drawing.Point(1098, 47);
             this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(96, 35);
+            this.btnCari.Size = new System.Drawing.Size(62, 35);
             this.btnCari.TabIndex = 9;
-            this.btnCari.Text = "     Cari";
+            this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = false;
             this.btnCari.Click += new System.EventHandler(this.btnCari_Click);
             // 
@@ -219,43 +219,40 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.annual_calender_day_schedule_date_time_calendar_icon_256474;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Location = new System.Drawing.Point(44, 486);
+            this.panel3.Location = new System.Drawing.Point(12, 486);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(50, 58);
+            this.panel3.Size = new System.Drawing.Size(63, 58);
             this.panel3.TabIndex = 16;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.business_cash_coin_dollar_finance_money_payment_icon_123244;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Location = new System.Drawing.Point(44, 217);
+            this.panel2.Location = new System.Drawing.Point(12, 217);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(50, 56);
+            this.panel2.Size = new System.Drawing.Size(63, 56);
             this.panel2.TabIndex = 15;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.add_112353;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Location = new System.Drawing.Point(44, 115);
+            this.panel1.Location = new System.Drawing.Point(12, 115);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(50, 60);
+            this.panel1.Size = new System.Drawing.Size(63, 60);
             this.panel1.TabIndex = 14;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1063, 47);
+            this.pictureBox1.Location = new System.Drawing.Point(1073, 47);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 35);
             this.pictureBox1.TabIndex = 13;
@@ -265,7 +262,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(75, 32);
+            this.label4.Location = new System.Drawing.Point(85, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(310, 51);
             this.label4.TabIndex = 24;
@@ -275,7 +272,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(2, 30);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 32);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 53);
             this.pictureBox3.TabIndex = 25;

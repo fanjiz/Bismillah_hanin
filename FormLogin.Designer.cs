@@ -161,7 +161,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(578, 126);
+            this.pictureBox3.Location = new System.Drawing.Point(397, 72);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 53);
             this.pictureBox3.TabIndex = 24;
@@ -193,7 +193,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1256, 719);
+            this.ClientSize = new System.Drawing.Size(1234, 719);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);

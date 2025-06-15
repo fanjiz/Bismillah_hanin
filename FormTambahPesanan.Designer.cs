@@ -182,7 +182,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(327, 249);
+            this.panel1.Location = new System.Drawing.Point(323, 210);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(676, 623);
             this.panel1.TabIndex = 10;
@@ -278,17 +278,18 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(508, 44);
+            this.label6.Location = new System.Drawing.Point(548, 46);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(310, 51);
             this.label6.TabIndex = 25;
             this.label6.Text = "Hanin Laundry";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(620, 98);
+            this.pictureBox5.Location = new System.Drawing.Point(486, 46);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(67, 53);
             this.pictureBox5.TabIndex = 26;

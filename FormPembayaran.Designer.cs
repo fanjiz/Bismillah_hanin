@@ -52,7 +52,7 @@
             this.dgvPembayaran.AllowUserToOrderColumns = true;
             this.dgvPembayaran.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgvPembayaran.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPembayaran.Location = new System.Drawing.Point(49, 294);
+            this.dgvPembayaran.Location = new System.Drawing.Point(49, 114);
             this.dgvPembayaran.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvPembayaran.Name = "dgvPembayaran";
             this.dgvPembayaran.ReadOnly = true;
@@ -64,7 +64,7 @@
             // 
             this.lblPageInfo.AutoSize = true;
             this.lblPageInfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageInfo.Location = new System.Drawing.Point(627, 767);
+            this.lblPageInfo.Location = new System.Drawing.Point(626, 596);
             this.lblPageInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPageInfo.Name = "lblPageInfo";
             this.lblPageInfo.Size = new System.Drawing.Size(191, 26);
@@ -75,7 +75,7 @@
             // 
             this.btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnPrev.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrev.Location = new System.Drawing.Point(50, 756);
+            this.btnPrev.Location = new System.Drawing.Point(49, 585);
             this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(105, 49);
@@ -88,7 +88,7 @@
             // 
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(163, 756);
+            this.btnNext.Location = new System.Drawing.Point(162, 585);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(105, 49);
@@ -101,19 +101,19 @@
             // 
             this.btnCari.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCari.Location = new System.Drawing.Point(724, 233);
+            this.btnCari.Location = new System.Drawing.Point(766, 43);
             this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(105, 35);
+            this.btnCari.Size = new System.Drawing.Size(63, 35);
             this.btnCari.TabIndex = 17;
-            this.btnCari.Text = "    Cari";
+            this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = true;
             this.btnCari.Click += new System.EventHandler(this.btnCari_Click);
             // 
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(458, 233);
+            this.tbCari.Location = new System.Drawing.Point(458, 43);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(258, 35);
@@ -122,12 +122,12 @@
             // btnCetak
             // 
             this.btnCetak.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCetak.Location = new System.Drawing.Point(50, 869);
+            this.btnCetak.Location = new System.Drawing.Point(124, 676);
             this.btnCetak.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCetak.Name = "btnCetak";
-            this.btnCetak.Size = new System.Drawing.Size(248, 70);
+            this.btnCetak.Size = new System.Drawing.Size(182, 70);
             this.btnCetak.TabIndex = 18;
-            this.btnCetak.Text = "         Cetak Laporan";
+            this.btnCetak.Text = "Cetak Laporan";
             this.btnCetak.UseVisualStyleBackColor = true;
             this.btnCetak.Click += new System.EventHandler(this.btnCetak_Click_1);
             // 
@@ -136,17 +136,17 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._2849806_copy_interface_multimedia_print_printer_107972;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(66, 883);
+            this.panel1.Location = new System.Drawing.Point(51, 676);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(53, 45);
+            this.panel1.Size = new System.Drawing.Size(66, 70);
             this.panel1.TabIndex = 20;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(724, 233);
+            this.pictureBox1.Location = new System.Drawing.Point(737, 43);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 35);
             this.pictureBox1.TabIndex = 19;
@@ -156,7 +156,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(284, 62);
+            this.label1.Location = new System.Drawing.Point(85, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(310, 51);
             this.label1.TabIndex = 21;
@@ -166,7 +166,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(391, 116);
+            this.pictureBox3.Location = new System.Drawing.Point(25, 27);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 53);
             this.pictureBox3.TabIndex = 25;
@@ -177,7 +177,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(890, 1014);
+            this.ClientSize = new System.Drawing.Size(890, 792);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
