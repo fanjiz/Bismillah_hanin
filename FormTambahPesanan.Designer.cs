@@ -182,7 +182,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(323, 210);
+            this.panel1.Location = new System.Drawing.Point(339, 149);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(676, 623);
             this.panel1.TabIndex = 10;
@@ -304,7 +304,7 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1324, 913);
+            this.ClientSize = new System.Drawing.Size(1324, 876);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
