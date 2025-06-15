@@ -219,7 +219,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.annual_calender_day_schedule_date_time_calendar_icon_256474;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel3.Location = new System.Drawing.Point(53, 728);
@@ -229,7 +229,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.business_cash_coin_dollar_finance_money_payment_icon_123244;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Location = new System.Drawing.Point(53, 459);
@@ -239,7 +239,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.add_112353;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Location = new System.Drawing.Point(53, 358);
