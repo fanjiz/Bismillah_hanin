@@ -53,11 +53,11 @@
             // btnBayar
             // 
             this.btnBayar.BackColor = System.Drawing.Color.Lime;
-            this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBayar.Location = new System.Drawing.Point(356, 641);
             this.btnBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBayar.Name = "btnBayar";
-            this.btnBayar.Size = new System.Drawing.Size(113, 36);
+            this.btnBayar.Size = new System.Drawing.Size(113, 38);
             this.btnBayar.TabIndex = 9;
             this.btnBayar.Text = "Bayar";
             this.btnBayar.UseVisualStyleBackColor = false;

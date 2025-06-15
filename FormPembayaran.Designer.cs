@@ -79,7 +79,7 @@
             this.btnPrev.Location = new System.Drawing.Point(24, 580);
             this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(135, 37);
+            this.btnPrev.Size = new System.Drawing.Size(135, 49);
             this.btnPrev.TabIndex = 14;
             this.btnPrev.Text = "Sebelumnya";
             this.btnPrev.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             this.btnNext.Location = new System.Drawing.Point(167, 580);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(135, 37);
+            this.btnNext.Size = new System.Drawing.Size(135, 49);
             this.btnNext.TabIndex = 13;
             this.btnNext.Text = "Selanjutnya";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             // btnCetak
             // 
             this.btnCetak.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCetak.Location = new System.Drawing.Point(85, 627);
+            this.btnCetak.Location = new System.Drawing.Point(84, 639);
             this.btnCetak.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCetak.Name = "btnCetak";
             this.btnCetak.Size = new System.Drawing.Size(175, 47);
@@ -159,7 +159,7 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._2849806_copy_interface_multimedia_print_printer_107972;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(25, 625);
+            this.panel1.Location = new System.Drawing.Point(24, 637);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(53, 47);
             this.panel1.TabIndex = 20;
