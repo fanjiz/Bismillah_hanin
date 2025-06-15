@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -42,8 +44,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -98,7 +98,7 @@
             // 
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnLogin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(150, 357);
+            this.btnLogin.Location = new System.Drawing.Point(139, 390);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(175, 53);
@@ -120,8 +120,28 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(378, 212);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(463, 442);
+            this.panel1.Size = new System.Drawing.Size(463, 467);
             this.panel1.TabIndex = 22;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(90, 322);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(140, 19);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Masukkan password";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(90, 200);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(176, 19);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Masukkan email terdaftar";
             // 
             // label3
             // 
@@ -192,26 +212,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(67, 53);
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(90, 200);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(176, 19);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "Masukkan email terdaftar";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(90, 322);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 19);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "Masukkan password";
             // 
             // FormLogin
             // 
