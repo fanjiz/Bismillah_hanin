@@ -53,6 +53,7 @@
             // btnBayar
             // 
             this.btnBayar.BackColor = System.Drawing.Color.Lime;
+            this.btnBayar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBayar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBayar.Location = new System.Drawing.Point(356, 641);
             this.btnBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -119,9 +120,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(79, 681);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(209, 19);
+            this.label2.Size = new System.Drawing.Size(261, 19);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Masukkan jumlah pembayaran";
+            this.label2.Text = "Masukkan nominal uang yang diterima";
             // 
             // FormBayarPesanan
             // 

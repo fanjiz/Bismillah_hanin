@@ -163,7 +163,7 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(732, 70);
+            this.tbCari.Location = new System.Drawing.Point(756, 70);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(258, 35);
@@ -278,7 +278,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(997, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(716, 72);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 35);
             this.pictureBox1.TabIndex = 13;

@@ -105,7 +105,7 @@
             this.btnCari.Location = new System.Drawing.Point(766, 69);
             this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(63, 35);
+            this.btnCari.Size = new System.Drawing.Size(63, 36);
             this.btnCari.TabIndex = 17;
             this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = true;
@@ -114,7 +114,7 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(472, 69);
+            this.tbCari.Location = new System.Drawing.Point(500, 70);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(258, 35);
@@ -169,7 +169,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(737, 69);
+            this.pictureBox1.Location = new System.Drawing.Point(456, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 35);
             this.pictureBox1.TabIndex = 19;
@@ -198,7 +198,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPembayaran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pembayaran";
+            this.Text = "Riwayat Pembayaran";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPembayaran)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
