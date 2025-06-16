@@ -52,12 +52,11 @@
             this.dgvPembayaran.AllowUserToOrderColumns = true;
             this.dgvPembayaran.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.dgvPembayaran.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPembayaran.Location = new System.Drawing.Point(25, 114);
-            this.dgvPembayaran.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dgvPembayaran.Location = new System.Drawing.Point(17, 74);
             this.dgvPembayaran.Name = "dgvPembayaran";
             this.dgvPembayaran.ReadOnly = true;
             this.dgvPembayaran.RowHeadersWidth = 62;
-            this.dgvPembayaran.Size = new System.Drawing.Size(804, 452);
+            this.dgvPembayaran.Size = new System.Drawing.Size(536, 294);
             this.dgvPembayaran.TabIndex = 2;
             // 
             // lblPageInfo
@@ -65,10 +64,9 @@
             this.lblPageInfo.AutoSize = true;
             this.lblPageInfo.BackColor = System.Drawing.Color.Transparent;
             this.lblPageInfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageInfo.Location = new System.Drawing.Point(638, 585);
-            this.lblPageInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPageInfo.Location = new System.Drawing.Point(430, 377);
             this.lblPageInfo.Name = "lblPageInfo";
-            this.lblPageInfo.Size = new System.Drawing.Size(191, 26);
+            this.lblPageInfo.Size = new System.Drawing.Size(123, 19);
             this.lblPageInfo.TabIndex = 15;
             this.lblPageInfo.Text = "Halaman 1 dari 2";
             // 
@@ -76,10 +74,9 @@
             // 
             this.btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnPrev.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrev.Location = new System.Drawing.Point(24, 580);
-            this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnPrev.Location = new System.Drawing.Point(16, 377);
             this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(135, 49);
+            this.btnPrev.Size = new System.Drawing.Size(90, 32);
             this.btnPrev.TabIndex = 14;
             this.btnPrev.Text = "Sebelumnya";
             this.btnPrev.UseVisualStyleBackColor = true;
@@ -89,10 +86,9 @@
             // 
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(167, 580);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnNext.Location = new System.Drawing.Point(111, 377);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(135, 49);
+            this.btnNext.Size = new System.Drawing.Size(90, 32);
             this.btnNext.TabIndex = 13;
             this.btnNext.Text = "Selanjutnya";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -102,10 +98,9 @@
             // 
             this.btnCari.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCari.Location = new System.Drawing.Point(766, 69);
-            this.btnCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCari.Location = new System.Drawing.Point(511, 45);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(63, 36);
+            this.btnCari.Size = new System.Drawing.Size(42, 23);
             this.btnCari.TabIndex = 17;
             this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = true;
@@ -114,19 +109,17 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(500, 70);
-            this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbCari.Location = new System.Drawing.Point(315, 45);
             this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(258, 35);
+            this.tbCari.Size = new System.Drawing.Size(173, 26);
             this.tbCari.TabIndex = 16;
             // 
             // btnCetak
             // 
             this.btnCetak.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCetak.Location = new System.Drawing.Point(84, 639);
-            this.btnCetak.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCetak.Location = new System.Drawing.Point(56, 415);
             this.btnCetak.Name = "btnCetak";
-            this.btnCetak.Size = new System.Drawing.Size(175, 47);
+            this.btnCetak.Size = new System.Drawing.Size(117, 31);
             this.btnCetak.TabIndex = 18;
             this.btnCetak.Text = "Cetak Laporan";
             this.btnCetak.UseVisualStyleBackColor = true;
@@ -137,9 +130,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 27);
+            this.label1.Location = new System.Drawing.Point(57, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 51);
+            this.label1.Size = new System.Drawing.Size(209, 35);
             this.label1.TabIndex = 21;
             this.label1.Text = "Hanin Laundry";
             // 
@@ -148,9 +142,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.laundry;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(25, 27);
+            this.pictureBox3.Location = new System.Drawing.Point(17, 18);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 53);
+            this.pictureBox3.Size = new System.Drawing.Size(45, 34);
             this.pictureBox3.TabIndex = 25;
             this.pictureBox3.TabStop = false;
             // 
@@ -159,9 +154,10 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._2849806_copy_interface_multimedia_print_printer_107972;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(24, 637);
+            this.panel1.Location = new System.Drawing.Point(16, 414);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(53, 47);
+            this.panel1.Size = new System.Drawing.Size(35, 31);
             this.panel1.TabIndex = 20;
             // 
             // pictureBox1
@@ -169,20 +165,21 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(456, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(491, 45);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 35);
+            this.pictureBox1.Size = new System.Drawing.Size(25, 23);
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
             // FormPembayaran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(863, 750);
+            this.ClientSize = new System.Drawing.Size(575, 487);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -195,10 +192,9 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.dgvPembayaran);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPembayaran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Riwayat Pembayaran";
+            this.Text = "Pembayaran";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPembayaran)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

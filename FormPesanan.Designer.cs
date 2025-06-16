@@ -109,7 +109,7 @@
             // 
             this.btnHapus.BackColor = System.Drawing.Color.Red;
             this.btnHapus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHapus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHapus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHapus.Location = new System.Drawing.Point(977, 643);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHapus.Name = "btnHapus";
@@ -130,7 +130,7 @@
             this.cbStatusPengerjaan.Location = new System.Drawing.Point(306, 644);
             this.cbStatusPengerjaan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbStatusPengerjaan.Name = "cbStatusPengerjaan";
-            this.cbStatusPengerjaan.Size = new System.Drawing.Size(262, 35);
+            this.cbStatusPengerjaan.Size = new System.Drawing.Size(262, 27);
             this.cbStatusPengerjaan.TabIndex = 5;
             // 
             // label1
@@ -138,10 +138,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(301, 613);
+            this.label1.Location = new System.Drawing.Point(302, 620);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(260, 26);
+            this.label1.Size = new System.Drawing.Size(169, 19);
             this.label1.TabIndex = 6;
             this.label1.Text = "Ubah Status Pengerjaan";
             // 
@@ -149,7 +149,7 @@
             // 
             this.btnSimpan.BackColor = System.Drawing.Color.Lime;
             this.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSimpan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimpan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSimpan.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnSimpan.Location = new System.Drawing.Point(586, 644);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -163,10 +163,10 @@
             // tbCari
             // 
             this.tbCari.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCari.Location = new System.Drawing.Point(756, 70);
+            this.tbCari.Location = new System.Drawing.Point(732, 70);
             this.tbCari.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(258, 35);
+            this.tbCari.Size = new System.Drawing.Size(258, 26);
             this.tbCari.TabIndex = 8;
             // 
             // btnCari
@@ -214,10 +214,10 @@
             this.lblPageInfo.AutoSize = true;
             this.lblPageInfo.BackColor = System.Drawing.Color.Transparent;
             this.lblPageInfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageInfo.Location = new System.Drawing.Point(898, 554);
+            this.lblPageInfo.Location = new System.Drawing.Point(961, 554);
             this.lblPageInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPageInfo.Name = "lblPageInfo";
-            this.lblPageInfo.Size = new System.Drawing.Size(191, 26);
+            this.lblPageInfo.Size = new System.Drawing.Size(123, 19);
             this.lblPageInfo.TabIndex = 12;
             this.lblPageInfo.Text = "Halaman 1 dari 2";
             // 
@@ -226,9 +226,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(85, 34);
+            this.label4.Location = new System.Drawing.Point(85, 50);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(310, 51);
+            this.label4.Size = new System.Drawing.Size(209, 35);
             this.label4.TabIndex = 24;
             this.label4.Text = "Hanin Laundry";
             // 
@@ -278,7 +278,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Bismillah_Hanin.Properties.Resources.search__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(716, 72);
+            this.pictureBox1.Location = new System.Drawing.Point(997, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 35);
             this.pictureBox1.TabIndex = 13;
@@ -286,7 +286,7 @@
             // 
             // FormPesanan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::Bismillah_Hanin.Properties.Resources._6874268;
